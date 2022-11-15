@@ -43,56 +43,56 @@ class _MyAppState extends State<MyApp> {
                       Icons.home,
                       size: 40,
                     ),
-                    label: 'Home',
+                    label: '自傳',
                   )
                 : BottomNavigationBarItem(
                     icon: Icon(
                       Icons.home,
                       size: 20,
                     ),
-                    label: 'Home'),
+                    label: '自傳'),
             (_currentindex == 1)
                 ? BottomNavigationBarItem(
                     icon: Icon(
                       Icons.access_alarm,
                       size: 40,
                     ),
-                    label: 'Alarm',
+                    label: '近期計畫',
                   )
                 : BottomNavigationBarItem(
                     icon: Icon(
                       Icons.access_alarm,
                       size: 20,
                     ),
-                    label: 'Alarm'),
+                    label: '近期計畫'),
             (_currentindex == 2)
                 ? BottomNavigationBarItem(
                     icon: Icon(
                       Icons.business,
                       size: 40,
                     ),
-                    label: 'Business',
+                    label: '四年計畫',
                   )
                 : BottomNavigationBarItem(
                     icon: Icon(
                       Icons.business,
                       size: 20,
                     ),
-                    label: 'Business'),
+                    label: '四年計畫'),
             (_currentindex == 3)
                 ? BottomNavigationBarItem(
                     icon: Icon(
                       Icons.school,
                       size: 40,
                     ),
-                    label: 'School',
+                    label: '未來展望',
                   )
                 : BottomNavigationBarItem(
                     icon: Icon(
                       Icons.school,
                       size: 20,
                     ),
-                    label: 'School'),
+                    label: '未來展望'),
           ],
           onTap: (index) {
             setState(() {
